@@ -16,7 +16,7 @@ function App() {
 
 		for (let i = 1; i <= 250; i++) {
 			const img = new Image();
-			img.src = `/images/${String(i).padStart(4, '0')}.png`;
+			img.src = `/images/${String(i).padStart(4, '0')}.webp`;
 			loadedImages.push(img);
 		}
 
